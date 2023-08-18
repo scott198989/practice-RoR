@@ -48,4 +48,44 @@ last_name = "tuschl"
 full_name = first_name + last_name
 
 puts "Your full name is #{full_name}, and your full name reversed is #{full_name.reverse}, and it has #{full_name.length} characters"
+# ------------------------------------------------
 
+puts "Simple Calculator"
+
+puts "Enter first number"
+first_number = gets.chomp
+puts "Enter Second number"
+second_number = gets.chomp
+
+puts "The first number multipled by the second number #{first_number.to_f * second_number.to_f}"
+puts "The first numnber is divided by the second number is: #{first_number.to_f / second_number.to_f}"
+puts "The first number subtracted from the second number is: #{first_number.to_f - second_number.to_f}"
+puts "The first number added to the second number is: #{first_number.to_f + second_number.to_f}"
+puts "The first number modulo the second number is: #{first_number.to_f % second_number.to_f}"
+
+
+
+def multiply(first_num, second_num)
+    first_num.to_f * second_num.to_f
+end
+
+def divide(first_num, second_num)
+    first_num.to_f / second_num.to_f
+end
+
+def subtract(first_num, second_num)
+    first_num.to_f - second_num.to_f
+end
+
+def add(first_num, second_num)
+    first_num.to_f + second_num.to_f
+end
+
+def mod(first_num, second_num)
+    first_num.to_f % second_num.to_f
+end
+
+a = [1,2,3,4,5,6,7,8,9]
+p a.push("new item")
+p c = a.join
+p d = a.split
