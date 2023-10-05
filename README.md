@@ -61,9 +61,3 @@ For any queries or suggestions, feel free to reach out to me:
 
 - **LinkedIn**: [Scott Tuschl](https://www.linkedin.com/in/scott-tuschl)
 - **Email**: [scott-tuschl@comcast.net](mailto:scott-tuschl@comcast.net)
-
----
-
-Hope this helps you understand my Ruby journey so far!
-
-Feel free to modify it to better suit your needs! Just copy-paste this into your README.md file, and you should be good to go. 😎
